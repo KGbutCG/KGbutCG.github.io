@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Приглашение на нашу свадьбу</title>
+    <title>Приглашение на нашу свадьбу | Константин и Марина</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +17,6 @@
         <h2>Где и когда</h2>
         <p>Деревня Черепово, 18В, Москва</p>
         
-        <!-- Ваша Яндекс.Карта (адаптирована) -->
         <div class="yandex-map">
             <a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a>
             <a href="https://yandex.ru/maps/213/moscow/?ll=37.402764%2C55.490324&mode=whatshere&utm_medium=mapframe&utm_source=maps&whatshere%5Bpoint%5D=37.402479%2C55.490235&whatshere%5Bzoom%5D=19.25&z=19.25" style="color:#eee;font-size:12px;position:absolute;top:14px;" target="_blank">Деревня Черепово, 18В — Яндекс Карты</a>
@@ -34,6 +33,20 @@
                 <option value="">Будете?</option>
                 <option value="yes">Да, приду!</option>
                 <option value="no">Нет, не смогу</option>
+            </select>
+            <textarea id="message" placeholder="Пожелания (опционально)"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+        <p id="status"></p>
+    </section>
+
+    <footer>
+        <p>С любовью, Константин и Марина | rsvp@yourdomain.ru</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
             </select>
             <textarea id="message" placeholder="Пожелания (опционально)"></textarea>
             <button type="submit">Отправить</button>
